@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+body{
+	background: #f2f2f2;
+	color:grey;
+
+}
+
+
+.nav li{
+	color: darkorange;
+}
+.navbar-style{
+	box-shadow: 0 5px 10px #efefef;
+	text-transform: uppercase;
+}
+.logo{
+	height: 48px;
+	padding: 2px 10px;
+}
+.icon-bar{
+	background: darkorange;
+
+}
+li a {
+	color:#000;
+}
+.row > div {
+  background: lightgrey;
+  border: 1px solid red;
+}
+
+
+#btnScrollToTop{
+	position: fixed;
+	right:2vh;
+	bottom: 10px;
+	width: 10vh;
+	height: 10vh;
+	border-radius: 50%;
+	background:#e62739;
+	box-shadow: 10 0 3vh rgba(0,0,0,.5);
+	color: #ffffff;
+	outline: none;
+	cursor: pointer;
+}
+#btnScrollToTop:active{
+	background:#cc2333;
+}
